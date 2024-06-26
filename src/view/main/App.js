@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Main from "./components/main";
+import Main from "./main";
 function App() {
   const [input, setInput] = useState("Hà Nội");
   const [lat, setLat] = useState("");

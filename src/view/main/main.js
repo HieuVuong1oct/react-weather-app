@@ -1,11 +1,11 @@
 import React from "react";
 
-import "../App";
+import "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Input from "./input";
-import Btn from "./btn";
-import DisplayInfo from "./displayInfo";
-import Coordinates from "./coordinates";
+import Input from "../../components/Input/input";
+import Btn from "../../components/Button/btn";
+import DisplayInfo from "../../components/DisplayInfomation/displayInfo";
+import Coordinates from "../../components/Coordinates/coordinates";
 
 const Main = ({input, setInput, lat, lon, weatherToday, weatherTomorrow, weatherTomorrowAfter , city, index, icon, date, indexData}) => {
   return(
