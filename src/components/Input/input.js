@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../App.css";
+import "./input.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Input = ({ input, setInput }) => {

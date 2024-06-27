@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../App.css";
+import "./btn.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Btn = ({ id, className, onClick, text }) => {

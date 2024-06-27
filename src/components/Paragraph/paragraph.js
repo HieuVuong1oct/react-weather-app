@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../App.css";
+import "./paragraph.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Paragraph = ({ city, date, indexData }) => {

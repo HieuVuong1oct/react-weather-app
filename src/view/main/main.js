@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./App";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Input from "../../components/Input/input";
 import Btn from "../../components/Button/btn";

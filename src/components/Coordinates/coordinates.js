@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../App.css";
+import "./cdn.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Coordinates = ({ lat, lon }) => {

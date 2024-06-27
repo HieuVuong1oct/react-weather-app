@@ -10,7 +10,7 @@ function App() {
   const [data, setData] = useState([]);
   const [index, setIndex] = useState(null);
   const [date, setDate] = useState([]);
-  const [icon, setIcon] = useState("http://openweathermap.org/img/wn/01d.png");
+  const [icon, setIcon] = useState("");
   const [city, setCity] = useState("");
 
   useEffect(() => {
